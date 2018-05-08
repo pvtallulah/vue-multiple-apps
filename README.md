@@ -6,7 +6,7 @@
 > To answer the question on [vue forum](https://forum.vuejs.org/t/composing-multiple-apps-as-a-single-spa/12622/5)
 ## Build Setup
 
-You will have to builde every app you whant separated. In this project i used 3 apps as exaple.
+You will have to build each app you want separate. In this project i used 3 apps as exaple.
 'app1', 'app2', 'app3'.
 ``` bash
 # install dependencies
