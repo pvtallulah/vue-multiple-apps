@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vue multi app</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <nav class='navbar'>
+    <div class="app-logo-container">
+      <img src="img/logo.png" alt="logo">
+    </div>
+    <div class="app-selector-container">
+      <select name="appSelector" id="appSelector" onchange="appChanged(this)">
+          <option value="-1" disabled selected>--Select an app to load--</option>
+        <option value="app1">app 1</option>
+        <option value="app2">app 2</option>
+        <option value="app3">app 3</option>
+      </select>
+    </div>
+  </nav>
+  <div id='appContainer'></div>
+  <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
